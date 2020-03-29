@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct APIHelper {
+    static let login = "https://api-dev-scus-demo.azurewebsites.net/api/User/Login"
+    
+}

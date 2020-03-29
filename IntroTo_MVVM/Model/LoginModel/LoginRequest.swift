@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct LoginRequest: Encodable {
+    var email, password: String?
+}

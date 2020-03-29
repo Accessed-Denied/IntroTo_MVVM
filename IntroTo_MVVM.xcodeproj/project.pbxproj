@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		FAA56F842430A09F008280E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56F832430A09F008280E0 /* AppDelegate.swift */; };
 		FAA56F862430A09F008280E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56F852430A09F008280E0 /* SceneDelegate.swift */; };
-		FAA56F882430A09F008280E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56F872430A09F008280E0 /* ViewController.swift */; };
 		FAA56F8B2430A09F008280E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA56F892430A09F008280E0 /* Main.storyboard */; };
 		FAA56F8D2430A09F008280E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA56F8C2430A09F008280E0 /* Assets.xcassets */; };
 		FAA56F902430A09F008280E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA56F8E2430A09F008280E0 /* LaunchScreen.storyboard */; };
+		FAA56F9C2430A8DA008280E0 /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56F9B2430A8DA008280E0 /* LoginValidation.swift */; };
+		FAA56F9E2430A92B008280E0 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56F9D2430A92B008280E0 /* ValidationResult.swift */; };
+		FAA56FA02430A9F3008280E0 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56F9F2430A9F3008280E0 /* LoginRequest.swift */; };
+		FAA56FA32430AB00008280E0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56FA22430AB00008280E0 /* LoginViewModel.swift */; };
+		FAA56FA52430AB53008280E0 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56FA42430AB53008280E0 /* LoginResponse.swift */; };
+		FAA56FA82430B63E008280E0 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56FA72430B63E008280E0 /* APIHelper.swift */; };
+		FAA56FAA2430BA50008280E0 /* LoginResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56FA92430BA50008280E0 /* LoginResource.swift */; };
+		FAA56FAE2430BB33008280E0 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56FAD2430BB33008280E0 /* HttpUtility.swift */; };
+		FAA56FB02430C4B4008280E0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA56FAF2430C4B4008280E0 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAA56F802430A09F008280E0 /* IntroTo_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroTo_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA56F832430A09F008280E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA56F852430A09F008280E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA56F872430A09F008280E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAA56F8A2430A09F008280E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA56F8C2430A09F008280E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA56F8F2430A09F008280E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA56F912430A0A0008280E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA56F9B2430A8DA008280E0 /* LoginValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
+		FAA56F9D2430A92B008280E0 /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		FAA56F9F2430A9F3008280E0 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		FAA56FA22430AB00008280E0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FAA56FA42430AB53008280E0 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		FAA56FA72430B63E008280E0 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		FAA56FA92430BA50008280E0 /* LoginResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResource.swift; sourceTree = "<group>"; };
+		FAA56FAD2430BB33008280E0 /* HttpUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
+		FAA56FAF2430C4B4008280E0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,87 @@
 		FAA56F822430A09F008280E0 /* IntroTo_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				FAA56FAC2430BAEF008280E0 /* Services */,
+				FAA56FAB2430BA5B008280E0 /* DataResource */,
+				FAA56FA62430B61A008280E0 /* CommonUtilities */,
+				FAA56F9A2430A8B9008280E0 /* Validation */,
+				FAA56F992430A5BA008280E0 /* ViewModel */,
+				FAA56F982430A5B3008280E0 /* View */,
+				FAA56F972430A5AB008280E0 /* Model */,
 				FAA56F832430A09F008280E0 /* AppDelegate.swift */,
 				FAA56F852430A09F008280E0 /* SceneDelegate.swift */,
-				FAA56F872430A09F008280E0 /* ViewController.swift */,
 				FAA56F892430A09F008280E0 /* Main.storyboard */,
 				FAA56F8C2430A09F008280E0 /* Assets.xcassets */,
 				FAA56F8E2430A09F008280E0 /* LaunchScreen.storyboard */,
 				FAA56F912430A0A0008280E0 /* Info.plist */,
 			);
 			path = IntroTo_MVVM;
+			sourceTree = "<group>";
+		};
+		FAA56F972430A5AB008280E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAA56FA12430AA0C008280E0 /* LoginModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAA56F982430A5B3008280E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAA56FAF2430C4B4008280E0 /* LoginVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAA56F992430A5BA008280E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAA56FA22430AB00008280E0 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAA56F9A2430A8B9008280E0 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				FAA56F9B2430A8DA008280E0 /* LoginValidation.swift */,
+				FAA56F9D2430A92B008280E0 /* ValidationResult.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		FAA56FA12430AA0C008280E0 /* LoginModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAA56F9F2430A9F3008280E0 /* LoginRequest.swift */,
+				FAA56FA42430AB53008280E0 /* LoginResponse.swift */,
+			);
+			path = LoginModel;
+			sourceTree = "<group>";
+		};
+		FAA56FA62430B61A008280E0 /* CommonUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FAA56FA72430B63E008280E0 /* APIHelper.swift */,
+			);
+			path = CommonUtilities;
+			sourceTree = "<group>";
+		};
+		FAA56FAB2430BA5B008280E0 /* DataResource */ = {
+			isa = PBXGroup;
+			children = (
+				FAA56FA92430BA50008280E0 /* LoginResource.swift */,
+			);
+			path = DataResource;
+			sourceTree = "<group>";
+		};
+		FAA56FAC2430BAEF008280E0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAA56FAD2430BB33008280E0 /* HttpUtility.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA56F882430A09F008280E0 /* ViewController.swift in Sources */,
+				FAA56FB02430C4B4008280E0 /* LoginVC.swift in Sources */,
+				FAA56FA82430B63E008280E0 /* APIHelper.swift in Sources */,
+				FAA56FAA2430BA50008280E0 /* LoginResource.swift in Sources */,
+				FAA56F9C2430A8DA008280E0 /* LoginValidation.swift in Sources */,
+				FAA56FA02430A9F3008280E0 /* LoginRequest.swift in Sources */,
+				FAA56FAE2430BB33008280E0 /* HttpUtility.swift in Sources */,
 				FAA56F842430A09F008280E0 /* AppDelegate.swift in Sources */,
+				FAA56F9E2430A92B008280E0 /* ValidationResult.swift in Sources */,
 				FAA56F862430A09F008280E0 /* SceneDelegate.swift in Sources */,
+				FAA56FA52430AB53008280E0 /* LoginResponse.swift in Sources */,
+				FAA56FA32430AB00008280E0 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
